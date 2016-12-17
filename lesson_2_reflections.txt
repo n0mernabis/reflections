@@ -4,3 +4,13 @@ How is the staging area different from the working directory and the repository?
 Staging area collects files to be commited.
 How can you use the staging area to make sure you have one commit per logical change?
 I can collect in the staging area the code which is only related to one logical change. 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+It's helphul when you want to make some separate from the main verion development. Branches keep changes
+for parallel coding.
+How do the diagrams help you visualize the branch structure?
+Pretty good. It shows the root for every branch and lists their members.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Commits from both branches are added to one branch, changes are collected from both versions. Diagram shows the 
+origin for the branch.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The cons is that git doesn't know if the sum of branches is still a valid code. 
